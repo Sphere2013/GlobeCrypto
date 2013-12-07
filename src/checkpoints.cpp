@@ -40,8 +40,6 @@ namespace Checkpoints
         (480, uint256("0x0000000048ba48d170c278e37d8a87b5ed735a8044134127f8a36eefc951d368"))
         (737, uint256("0x00000000dce0e2071f61ae1b33e35b41d58a9645f44498089508e82f1e02bdad"))
         (1186, uint256("0x00000000ad158e44d8764f74999cbfefc60e3dfd1dc108a624ea107651b39207"))
-        //Tranz this was added to the win-qt
-        (3884, uint256("0x00000000887ab83516cc44365d3092ec50548b93a6b0fe2a04c8938bcd6b126f"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
