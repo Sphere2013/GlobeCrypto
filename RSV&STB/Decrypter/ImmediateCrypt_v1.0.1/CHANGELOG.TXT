@@ -1,0 +1,26 @@
+                             ImmediateCrypt
+
+http://giacomodrago.com/go/immediatecrypt
+by Giacomo Drago (giacomo@giacomodrago.com)
+
+--------------------------------------------------------------------------------
+
+CHANGELOG
+
+1.0.1
+    - Maximum password length is now fixed to 64
+    - Password is no longer trimmed
+    - More robust handling of malformed inputs
+    - Minor GUI changes
+
+1.0
+    - Ciphertext is now trimmed before decryption
+    - Plaintext is now trimmed before encryption
+    - Added about window
+    - Created a portable build.xml file
+    - Added program icon
+         (downloaded from: http://findicons.com/icon/139420/encryption?id=412700)
+    - Small fixes and improvements
+
+1.0 RC2
+    - First release
