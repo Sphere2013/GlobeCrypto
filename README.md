@@ -1,11 +1,11 @@
-Freicoin integration/staging tree
+Globe integration/staging tree
 =================================
 
 http://www.freico.in/
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
-What is Freicoin?
+What is Globe?
 -----------------
 
 Freicoin is an experimental new digital currency that enables instant payments to
