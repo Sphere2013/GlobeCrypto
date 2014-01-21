@@ -1163,8 +1163,7 @@ CBudget static GetInitialDistributionBudget(int nHeight)
     }
 
     static CBudget emptyBudget = CBudget(0, std::vector<CBudgetEntry>());
-    if ( nHeight >= EQ_HEIGHT )
-        return emptyBudget;
+
 
     std::vector<CBudgetEntry> vBudgetEntries;
     vBudgetEntries.reserve(1);
