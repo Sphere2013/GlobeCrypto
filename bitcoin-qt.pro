@@ -1,7 +1,7 @@
 TEMPLATE = app
-TARGET = freicoin-qt
-macx:TARGET = "Globe-Qt"
-VERSION = 0.8.4-1
+TARGET = Globe-Qt-0.3
+macx:TARGET = "Globe-Qt-0.3"
+VERSION = 0.8.3-1
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
