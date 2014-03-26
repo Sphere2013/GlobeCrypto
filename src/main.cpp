@@ -1167,7 +1167,7 @@ CBudget static GetInitialDistributionBudget(int nHeight)
 
     std::vector<CBudgetEntry> vBudgetEntries;
     vBudgetEntries.reserve(1);
-    vBudgetEntries.push_back(CBudgetEntry(1, vAddresses[nHeight*4/EQ_HEIGHT].Get()));
+    vBudgetEntries.push_back(CBudgetEntry(1, vAddresses[(nHeight*4/EQ_HEIGHT)%4].Get()));
     mpq qRatio = TITHE_AMOUNT ;
     return CBudget(qRatio, vBudgetEntries);
 }
