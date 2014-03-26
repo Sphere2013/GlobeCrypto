@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = Globe-Qt-0.3
-macx:TARGET = "Globe-Qt-0.3"
+TARGET = Globe-Qt-0.4
+macx:TARGET = "Globe-Qt-0.4"
 VERSION = 0.8.3-1
 INCLUDEPATH += src src/json src/qt
 QT += network
