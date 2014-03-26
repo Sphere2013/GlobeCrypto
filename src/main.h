@@ -52,7 +52,7 @@ inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= I64_MAX_
 inline bool MoneyRange(mpz zValue) { return (zValue >= 0 && zValue <= MPZ_MAX_MONEY); }
 inline bool MoneyRange(mpq qValue) { return (qValue >= 0 && qValue <= MPQ_MAX_MONEY); }
 /** Subsidy, demurrage, and budgetary requirements for Globe host currency */
-static const int EQ_HEIGHT = 999999999;
+static const int EQ_HEIGHT = 161280;
 static const mpq TITHE_RATIO = mpq("1/5");
 static const mpq TITHE_AMOUNT = MPQ_MAX_MONEY * TITHE_RATIO / MPQ_MAX_MONEY;
 static const mpq INITIAL_SUBSIDY = mpq("15916928404");
