@@ -1,26 +1,23 @@
-Globe integration/staging tree
-=================================
-
-http://www.freico.in/
+http://www.globecrypto.com/
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
 What is Globe?
 -----------------
 
-Freicoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Freicoin uses peer-to-peer technology to operate
+Globe is an experimental new digital currency that enables instant payments to
+anyone, anywhere in the world. Globe uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Freicoin is also the name of the open source
+out collectively by the network. Globe is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Freicoin client software, see http://www.freico.in/.
+the Globe client software, see http://www.freico.in/.
 
 License
 -------
 
-Freicoin is released under the terms of the MIT license. See `COPYING` for more
+Globe is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -29,12 +26,12 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Freicoin
+If it is a simple/trivial/non-controversial change, then one of the Globe
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](https://groups.google.com/forum/#!forum/freicoin).
+[mailing list](https://groups.google.com/forum/#!forum/Globe).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -42,8 +39,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/freicoin/freicoin/tags) are created
-regularly to indicate new official, stable release versions of Freicoin.
+completely stable. [Tags](https://github.com/Globe/Globe/tags) are created
+regularly to indicate new official, stable release versions of Globe.
 
 Testing
 -------
@@ -64,9 +61,9 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake FREICOIN_QT_TEST=1 -o Makefile.test freicoin-qt.pro
+    qmake GLOBE_QT_TEST=1 -o Makefile.test Globe-qt.pro
     make -f Makefile.test
-    ./freicoin-qt_test
+    ./Globe-qt_test
 
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
@@ -80,3 +77,4 @@ Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
 
 See https://github.com/bitcoin/QA/ for how to create a test plan.
+
