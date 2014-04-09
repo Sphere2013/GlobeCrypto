@@ -12,7 +12,7 @@ out collectively by the network. Globe is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Globe client software, see http://www.freico.in/.
+the Globe client software, see http://globecrypto.com/
 
 License
 -------
